@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS nstrees;
+CREATE DATABASE nstrees;
+GRANT ALL PRIVILEGES ON nstrees.* to apache@localhost;

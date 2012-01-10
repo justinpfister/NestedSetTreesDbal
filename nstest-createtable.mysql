@@ -1,0 +1,12 @@
+USE edutech_test;
+
+DROP TABLE IF EXISTS tree1;
+CREATE TABLE tree1(
+  id    INT(11), 
+  name  VARCHAR(100), 
+  lft   INT(11) NOT NULL DEFAULT '0', 
+  rgt   INT(11) NOT NULL DEFAULT '0', 
+  KEY   (lft), 
+  KEY   (rgt)
+)type=MyISAM;
+
